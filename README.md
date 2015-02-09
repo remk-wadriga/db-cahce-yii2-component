@@ -8,7 +8,6 @@
 ],
 
 
-
 *Find a user (with its posts and comments) by the ID:
 
 $query = User::find()
