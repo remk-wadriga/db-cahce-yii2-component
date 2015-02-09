@@ -18,7 +18,6 @@ $query = User::find()
 $user = Yii::$app->dbCache->find($query, 3600)->one();
 
 
-
 *Find all users (with its posts and comments) by the ID:
 
 $query = User::find()
